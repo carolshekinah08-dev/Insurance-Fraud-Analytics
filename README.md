@@ -5,7 +5,7 @@ This project applies forensic analytics to a one-million-record insurance portfo
 
 The results are investigative screening indicators for independent claim-file review, not legal findings of misconduct.
 
-# Problem Statement
+## Problem Statement
 Identify claims where authorized payouts are inflated via engineered premium spikes and fabricated/duplicated disaster claims, and prioritize the managers, adjusters, and contractors most associated with the exposure.
 
 ## Verified findings
