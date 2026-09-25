@@ -1,0 +1,328 @@
+{
+  "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "t_test": {
+    "null_hypothesis": "H0: Mean payout for Apex Restoration is less than or equal to mean payout for Global Rebuild.",
+    "alternative_hypothesis": "H1: Mean payout for Apex Restoration is greater than mean payout for Global Rebuild.",
+    "apex_count": 12,
+    "global_rebuild_count": 12,
+    "apex_mean": 4441006.444166667,
+    "global_rebuild_mean": 9109136.911666667,
+    "t_statistic": -2.867612907446254,
+    "two_sided_p_value": 0.009467451353733718,
+    "one_sided_p_value": 0.9952662743231332,
+    "significant_at_0_05": false
+  },
+  "benfords_law": {
+    "observations": 149698,
+    "actual_leading_digit_frequencies": {
+      "1": 0.49905142353271253,
+      "2": 0.25042418736389266,
+      "3": 2.6720463867252737e-05,
+      "4": 3.340057983406592e-05,
+      "5": 0.05058183810070943,
+      "6": 0.05046159601330679,
+      "7": 0.0498603855762936,
+      "8": 0.04991382650402811,
+      "9": 0.04964662186535558
+    },
+    "benford_expected_frequencies": {
+      "1": 0.3010299956639812,
+      "2": 0.17609125905568124,
+      "3": 0.12493873660829993,
+      "4": 0.09691001300805642,
+      "5": 0.07918124604762482,
+      "6": 0.06694678963061322,
+      "7": 0.05799194697768673,
+      "8": 0.05115252244738129,
+      "9": 0.04575749056067514
+    },
+    "absolute_deviation_by_digit": {
+      "1": 0.19802142786873134,
+      "2": 0.07433292830821142,
+      "3": 0.12491201614443267,
+      "4": 0.09687661242822235,
+      "5": 0.028599407946915387,
+      "6": 0.01648519361730643,
+      "7": 0.00813156140139313,
+      "8": 0.0012386959433531783,
+      "9": 0.0038891313046804377
+    },
+    "mean_absolute_deviation": 0.061387441662582934,
+    "chi_square": 59768.04228719592,
+    "chi_square_p_value": 0.0
+  },
+  "correlations": {
+    "pearson_r": 0.004946397256212537,
+    "pearson_p_value": 7.559025642021206e-07,
+    "spearman_rho": -0.002579787717404987,
+    "spearman_p_value": 0.00988607606956118,
+    "observations": 1000000
+  },
+  "pareto": {
+    "manager_count": 40,
+    "managers": [
+      {
+        "MANAGER_ID": "MGR-299",
+        "total_damage_usd": 202891192.45081377,
+        "cumulative_share": 0.0741646971876948
+      },
+      {
+        "MANAGER_ID": "MGR-144",
+        "total_damage_usd": 183000804.05213422,
+        "cumulative_share": 0.14105867643680128
+      },
+      {
+        "MANAGER_ID": "MGR-288",
+        "total_damage_usd": 141140330.6607572,
+        "cumulative_share": 0.1926510090461323
+      },
+      {
+        "MANAGER_ID": "MGR-188",
+        "total_damage_usd": 12500349.776450047,
+        "cumulative_share": 0.19722037770483067
+      },
+      {
+        "MANAGER_ID": "MGR-292",
+        "total_damage_usd": 12454586.915513497,
+        "cumulative_share": 0.20177301824101765
+      },
+      {
+        "MANAGER_ID": "MGR-129",
+        "total_damage_usd": 12247609.746837357,
+        "cumulative_share": 0.20625000049527423
+      },
+      {
+        "MANAGER_ID": "MGR-230",
+        "total_damage_usd": 12231278.646936895,
+        "cumulative_share": 0.2107210130912907
+      },
+      {
+        "MANAGER_ID": "MGR-118",
+        "total_damage_usd": 12168905.996410197,
+        "cumulative_share": 0.21516922603453162
+      },
+      {
+        "MANAGER_ID": "MGR-223",
+        "total_damage_usd": 12114768.227930753,
+        "cumulative_share": 0.21959764949772068
+      },
+      {
+        "MANAGER_ID": "MGR-124",
+        "total_damage_usd": 12104834.147212084,
+        "cumulative_share": 0.22402244166435398
+      },
+      {
+        "MANAGER_ID": "MGR-182",
+        "total_damage_usd": 12081261.866182167,
+        "cumulative_share": 0.22843861723672568
+      },
+      {
+        "MANAGER_ID": "MGR-249",
+        "total_damage_usd": 12069031.01834391,
+        "cumulative_share": 0.23285032195397884
+      },
+      {
+        "MANAGER_ID": "MGR-274",
+        "total_damage_usd": 12012472.23762186,
+        "cumulative_share": 0.23724135221614656
+      },
+      {
+        "MANAGER_ID": "MGR-114",
+        "total_damage_usd": 11982065.416161088,
+        "cumulative_share": 0.24162126759117283
+      },
+      {
+        "MANAGER_ID": "MGR-102",
+        "total_damage_usd": 11975849.056803059,
+        "cumulative_share": 0.24599891064277382
+      },
+      {
+        "MANAGER_ID": "MGR-155",
+        "total_damage_usd": 11915036.256379187,
+        "cumulative_share": 0.2503543242280579
+      },
+      {
+        "MANAGER_ID": "MGR-280",
+        "total_damage_usd": 11887537.445627064,
+        "cumulative_share": 0.2546996859182951
+      },
+      {
+        "MANAGER_ID": "MGR-131",
+        "total_damage_usd": 11866751.167448208,
+        "cumulative_share": 0.2590374494077028
+      },
+      {
+        "MANAGER_ID": "MGR-255",
+        "total_damage_usd": 11860732.446472757,
+        "cumulative_share": 0.263373012818274
+      },
+      {
+        "MANAGER_ID": "MGR-213",
+        "total_damage_usd": 11853532.666303834,
+        "cumulative_share": 0.2677059444265004
+      },
+      {
+        "MANAGER_ID": "MGR-143",
+        "total_damage_usd": 11853230.887900958,
+        "cumulative_share": 0.2720387657228715
+      },
+      {
+        "MANAGER_ID": "MGR-173",
+        "total_damage_usd": 11842013.43686854,
+        "cumulative_share": 0.2763674866004467
+      },
+      {
+        "MANAGER_ID": "MGR-254",
+        "total_damage_usd": 11834836.076491313,
+        "cumulative_share": 0.2806935838709912
+      },
+      {
+        "MANAGER_ID": "MGR-171",
+        "total_damage_usd": 11832612.57711445,
+        "cumulative_share": 0.2850188683652097
+      },
+      {
+        "MANAGER_ID": "MGR-140",
+        "total_damage_usd": 11828145.287007336,
+        "cumulative_share": 0.2893425198894897
+      },
+      {
+        "MANAGER_ID": "MGR-185",
+        "total_damage_usd": 11782129.86698783,
+        "cumulative_share": 0.29364935097099704
+      },
+      {
+        "MANAGER_ID": "MGR-272",
+        "total_damage_usd": 11744816.776746133,
+        "cumulative_share": 0.2979425426529549
+      },
+      {
+        "MANAGER_ID": "MGR-125",
+        "total_damage_usd": 11729131.09756746,
+        "cumulative_share": 0.30223000060328825
+      },
+      {
+        "MANAGER_ID": "MGR-290",
+        "total_damage_usd": 11706445.516775073,
+        "cumulative_share": 0.3065091660831124
+      },
+      {
+        "MANAGER_ID": "MGR-278",
+        "total_damage_usd": 11677592.82749591,
+        "cumulative_share": 0.3107777847721291
+      },
+      {
+        "MANAGER_ID": "MGR-159",
+        "total_damage_usd": 11665809.966753153,
+        "cumulative_share": 0.31504209636290054
+      },
+      {
+        "MANAGER_ID": "MGR-269",
+        "total_damage_usd": 11653879.256562755,
+        "cumulative_share": 0.31930204681064833
+      },
+      {
+        "MANAGER_ID": "MGR-112",
+        "total_damage_usd": 11652207.548041524,
+        "cumulative_share": 0.3235613861832935
+      },
+      {
+        "MANAGER_ID": "MGR-233",
+        "total_damage_usd": 11652184.00822631,
+        "cumulative_share": 0.32782071695121184
+      },
+      {
+        "MANAGER_ID": "MGR-297",
+        "total_damage_usd": 11645254.3166718,
+        "cumulative_share": 0.33207751464477875
+      },
+      {
+        "MANAGER_ID": "MGR-216",
+        "total_damage_usd": 11644780.026945187,
+        "cumulative_share": 0.336334138966828
+      },
+      {
+        "MANAGER_ID": "MGR-271",
+        "total_damage_usd": 11619116.457301842,
+        "cumulative_share": 0.3405813822465148
+      },
+      {
+        "MANAGER_ID": "MGR-258",
+        "total_damage_usd": 11614506.386407861,
+        "cumulative_share": 0.34482694036427936
+      },
+      {
+        "MANAGER_ID": "MGR-184",
+        "total_damage_usd": 11614221.436672,
+        "cumulative_share": 0.34907239432172715
+      },
+      {
+        "MANAGER_ID": "MGR-128",
+        "total_damage_usd": 11613249.026131026,
+        "cumulative_share": 0.3533174928249414
+      }
+    ]
+  },
+  "premium_mad": 169166.7559369018,
+  "seasonality": {
+    "monthly_rows": 60,
+    "daily_rows": 1800
+  },
+  "isolation_forest": {
+    "feature_columns": [
+      "PAYOUT_AUTHORIZED",
+      "PREMIUM_SPIKE_USD",
+      "ADJUSTER_GRATUITY",
+      "TOTAL_FINANCIAL_DAMAGE_USD",
+      "PAYOUT_TO_VALUE_RATIO",
+      "VALUATION_USD"
+    ],
+    "anomaly_count": 197167,
+    "anomaly_rate": 0.197167,
+    "country_counts": {
+      "US": 62230,
+      "CA": 53286,
+      "UK": 39396,
+      "DE": 25181,
+      "FR": 17074
+    }
+  },
+  "property_type_analysis": {
+    "Commercial": {
+      "count": 299586.0,
+      "mean": 2858.285999045349,
+      "median": 0.0,
+      "std": 82643.62007992453,
+      "sum": 856302469.31
+    },
+    "Multi-Family": {
+      "count": 300264.0,
+      "mean": 2569.7737342471955,
+      "median": 0.0,
+      "std": 53127.265571230826,
+      "sum": 771610540.54
+    },
+    "Single Family": {
+      "count": 199803.0,
+      "mean": 2748.723174677057,
+      "median": 0.0,
+      "std": 84405.72573144177,
+      "sum": 549203136.47
+    },
+    "Industrial": {
+      "count": 200347.0,
+      "mean": 2491.841860472081,
+      "median": 0.0,
+      "std": 64232.450636159316,
+      "sum": 499233041.22
+    }
+  },
+  "claim_payout_descriptive_statistics": {
+    "mean": 2676.34918754,
+    "median": 0.0,
+    "std": 71719.73416966245,
+    "min": 0.0,
+    "max": 22545609.29,
+    "count": 1000000.0
+  }
+}

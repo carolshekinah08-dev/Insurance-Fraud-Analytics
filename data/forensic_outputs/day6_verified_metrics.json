@@ -1,0 +1,102 @@
+{
+  "row_count": 1000000,
+  "total_payout_authorized": 2676349187.5399733,
+  "total_financial_damage": 2735684229.079233,
+  "phantom_claim_count": 60,
+  "total_fraudulent_payouts_flagged": 433379184.92999995,
+  "total_financial_damage_flagged": 492714231.0319216,
+  "top_5_adjusters_by_gratuity": [
+    {
+      "ADJUSTER_ID": "ADJ-1333",
+      "total_gratuity": 34966968.85999999
+    },
+    {
+      "ADJUSTER_ID": "ADJ-1111",
+      "total_gratuity": 30039908.87
+    }
+  ],
+  "top_5_managers_by_flagged_damage": [
+    {
+      "MANAGER_ID": "MGR-299",
+      "total_financial_damage": 190966671.7244042
+    },
+    {
+      "MANAGER_ID": "MGR-144",
+      "total_financial_damage": 172065596.9238824
+    },
+    {
+      "MANAGER_ID": "MGR-288",
+      "total_financial_damage": 129681962.3836349
+    }
+  ],
+  "top_5_contractors_by_flagged_payout": [
+    {
+      "DECODED_CONTRACTOR": "Vanguard Restorations",
+      "total_payout": 189218207.91
+    },
+    {
+      "DECODED_CONTRACTOR": "Global Rebuild",
+      "total_payout": 109309642.94
+    },
+    {
+      "DECODED_CONTRACTOR": "Shadow Contracting LLC",
+      "total_payout": 81559256.75
+    },
+    {
+      "DECODED_CONTRACTOR": "Apex Restoration",
+      "total_payout": 53292077.33
+    }
+  ],
+  "top_5_immediate_policy_cancellation_risk_candidates": [
+    {
+      "PROPERTY_ID": "PRP-0307516",
+      "MANAGER_ID": "MGR-299",
+      "ADJUSTER_ID": "ADJ-1111",
+      "DECODED_CONTRACTOR": "Vanguard Restorations",
+      "PAYOUT_AUTHORIZED": 22545609.29,
+      "PREMIUM_SPIKE_USD": 1273187.3949340337,
+      "TOTAL_FINANCIAL_DAMAGE_USD": 23818796.68493403,
+      "PAYOUT_TO_VALUE_RATIO": 0.26276763125796826
+    },
+    {
+      "PROPERTY_ID": "PRP-0287345",
+      "MANAGER_ID": "MGR-288",
+      "ADJUSTER_ID": "ADJ-1111",
+      "DECODED_CONTRACTOR": "Vanguard Restorations",
+      "PAYOUT_AUTHORIZED": 21569111.44,
+      "PREMIUM_SPIKE_USD": 1696949.9750570897,
+      "TOTAL_FINANCIAL_DAMAGE_USD": 23266061.415057093,
+      "PAYOUT_TO_VALUE_RATIO": 0.279135641587368
+    },
+    {
+      "PROPERTY_ID": "PRP-0765012",
+      "MANAGER_ID": "MGR-299",
+      "ADJUSTER_ID": "ADJ-1333",
+      "DECODED_CONTRACTOR": "Shadow Contracting LLC",
+      "PAYOUT_AUTHORIZED": 20574885.9,
+      "PREMIUM_SPIKE_USD": 1479489.2996530635,
+      "TOTAL_FINANCIAL_DAMAGE_USD": 22054375.199653063,
+      "PAYOUT_TO_VALUE_RATIO": 0.29766193681030895
+    },
+    {
+      "PROPERTY_ID": "PRP-0296470",
+      "MANAGER_ID": "MGR-144",
+      "ADJUSTER_ID": "ADJ-1333",
+      "DECODED_CONTRACTOR": "Vanguard Restorations",
+      "PAYOUT_AUTHORIZED": 18471603.6,
+      "PREMIUM_SPIKE_USD": 1875924.1180244258,
+      "TOTAL_FINANCIAL_DAMAGE_USD": 20347527.71802443,
+      "PAYOUT_TO_VALUE_RATIO": 0.27827238252818487
+    },
+    {
+      "PROPERTY_ID": "PRP-0014271",
+      "MANAGER_ID": "MGR-288",
+      "ADJUSTER_ID": "ADJ-1333",
+      "DECODED_CONTRACTOR": "Vanguard Restorations",
+      "PAYOUT_AUTHORIZED": 17997191.81,
+      "PREMIUM_SPIKE_USD": 2260395.2951224353,
+      "TOTAL_FINANCIAL_DAMAGE_USD": 20257587.105122432,
+      "PAYOUT_TO_VALUE_RATIO": 0.26581315605783823
+    }
+  ]
+}
