@@ -48,6 +48,9 @@ Benford deviations, model flags, relationship concentration, and payout patterns
 ![Fraud seasonality](images/forensic_images/fraud_seasonality.png)
 
 ### Dashboard pages
+Excel
+<img width="1410" height="677" alt="image" src="https://github.com/user-attachments/assets/d5c0d797-abc9-455e-8223-f7a7e24c5a7a" />
+Power BI
 ![Insurance dashboard page 1](images/dashboard_screenshots/dashboard_page_1.png)
 
 ## Repository contents
