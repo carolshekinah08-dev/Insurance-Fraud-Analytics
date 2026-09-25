@@ -49,8 +49,6 @@ Benford deviations, model flags, relationship concentration, and payout patterns
 
 ### Dashboard pages
 ![Insurance dashboard page 1](images/dashboard_screenshots/dashboard_page_1.png)
-![Insurance dashboard page 2](images/dashboard_screenshots/dashboard_page_2.png)
-![Insurance dashboard page 3](images/dashboard_screenshots/dashboard_page_3.png)
 
 ## Repository contents
 Data engineering scripts, SQL architecture, processed and forensic outputs, dashboard assets, images, and supporting insurance audit reports.
