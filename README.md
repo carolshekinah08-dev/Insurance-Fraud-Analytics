@@ -36,5 +36,21 @@ Top manager review targets: `MGR-299`, `MGR-144`, `MGR-288`. Adjuster evidence s
 ## Limitations
 Benford deviations, model flags, relationship concentration, and payout patterns require validation against claim files. Named managers, adjusters, contractors, and properties are review candidates, not confirmed wrongdoers.
 
+## Charts and dashboard evidence
+
+### Benford's Law and anomaly evidence
+![Benford's Law claim evidence](images/forensic_images/benfords_law_claim_proof.png)
+![Multivariate anomalies](images/forensic_images/multivariate_anomalies.png)
+
+### Payout and fraud patterns
+![Payout fraud evidence](images/forensic_images/payout_fraud_proof.png)
+![Extortion scaling trend](images/forensic_images/extortion_scaling_trend.png)
+![Fraud seasonality](images/forensic_images/fraud_seasonality.png)
+
+### Dashboard pages
+![Insurance dashboard page 1](images/dashboard_screenshots/dashboard_page_1.png)
+![Insurance dashboard page 2](images/dashboard_screenshots/dashboard_page_2.png)
+![Insurance dashboard page 3](images/dashboard_screenshots/dashboard_page_3.png)
+
 ## Repository contents
 Data engineering scripts, SQL architecture, processed and forensic outputs, dashboard assets, images, and supporting insurance audit reports.
